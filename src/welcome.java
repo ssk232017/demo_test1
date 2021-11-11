@@ -17,7 +17,6 @@ public class welcome {
 		
 		/*if ("shivamkalbande"==s){
 		ss	System.out.println("Verified");
-			
 			break;
 			}else{
 			System.out.println("Not Verified"); 		
