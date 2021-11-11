@@ -5,23 +5,19 @@ public class welcome {
 		// TODO Auto-generated method stub
 		
 		System.out.println("Welcome to Java:");
-	//while(true)
-	//{
+	
 		Scanner ip1= new Scanner(System.in);
 		System.out.println("Enter your name :");
 		String name = ip1.next();
 		
 		System.out.println(name);
 		System.out.println(name.length());
-		//String s=name;
 		
-		if ("shivamkalbande"==name){
-			System.out.println("Verified");
-			//shivambreak;
-			}/*else{
-			System.out.println("Not Verified"); 		
-			}*/
+		System.out.println("Enter your age:");
+		int i= ip1.nextInt();
 		
+		if (i > 20)
+			System.out.println("You are not a Teenager.");
 	ip1.close();
 		return ;}
 
