@@ -15,12 +15,13 @@ public class welcome {
 		System.out.println(name.length());
 		//String s=name;
 		
-		/*if ("shivamkalbande"==s){
-		ss	System.out.println("Verified");
-			break;
-			}else{
+		if ("shivamkalbande"==name){
+			System.out.println("Verified");
+			//shivambreak;
+			}/*else{
 			System.out.println("Not Verified"); 		
 			}*/
+		
 	ip1.close();
 		return ;}
 
