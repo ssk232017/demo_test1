@@ -16,7 +16,7 @@ public class welcome {
 		//String s=name;
 		
 		/*if ("shivamkalbande"==s){
-			System.out.println("Verified");
+		ss	System.out.println("Verified");
 			
 			break;
 			}else{
