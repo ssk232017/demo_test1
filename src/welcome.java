@@ -18,12 +18,22 @@ public class welcome {
 		
 		if (i > 20)
 			System.out.println("You are not a Teenager.");
-	ip1.close();
+	
 	
 	verify v = new verify();
 	v.a= 10;
 	v.b= 20;
 	v.add();
+		int i= new ip.nextInt();
+		System.out.println("Enter factorial no. ");
+		fact f = new fact();
+		f.n= i;
+		
+		
+		
+	ip1.close();
+		
+		
 		}
 
 }
