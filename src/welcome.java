@@ -10,30 +10,34 @@ public class welcome {
 		System.out.println("Enter your name :");
 		String name = ip1.next();
 		
-		System.out.println(name);
+		System.out.println("Welcome"+name);
 		System.out.println(name.length());
+		
+
+		System.out.println("Enter factorial no. ");
+		int j= ip1.nextInt();
 		
 		System.out.println("Enter your age:");
 		int i= ip1.nextInt();
 		
 		if (i > 20)
 			System.out.println("You are not a Teenager.");
-	
+		ip1.close();
 	
 	verify v = new verify();
 	v.a= 10;
 	v.b= 20;
 	v.add();
-		int i= new ip.nextInt();
-		System.out.println("Enter factorial no. ");
-		
+	
+	//Scanner sc = new Scanner(System.in);
+	
 		fact f = new fact();
-		f.n= i;
+		f.n= j;
 		f.facto();
 		
 		
 		
-	ip1.close();
+//	sc.close();
 		
 		
 		}
