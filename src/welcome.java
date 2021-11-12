@@ -26,8 +26,10 @@ public class welcome {
 	v.add();
 		int i= new ip.nextInt();
 		System.out.println("Enter factorial no. ");
+		
 		fact f = new fact();
 		f.n= i;
+		f.facto();
 		
 		
 		
